@@ -1,0 +1,68 @@
+:root {
+  --fe-white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+  --rounded-sm: 0.125rem;
+  --padding-half: 0.125rem;
+  --padding-1: 0.25rem;
+  --padding-2: 0.5rem;
+  --padding-3: 0.75rem;
+  --padding-4: 1rem;
+}
+
+body {
+  background-color: var(--slate-300);
+  height: calc(100vh - 1.1rem);
+  display: flex;
+  font-family: 'Outfit', sans serif;
+  line-height: 1.55rem;
+}
+
+body,
+p {
+  font-size: 15px;
+}
+
+.outfit-specimen-400 {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-specimen-700 {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.qr-wrapper {
+  border-radius: var(--padding-2);
+  border: 1px solid var(--slate-500);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--fe-white);
+  border-radius: 0.5rem;
+  padding: var(--padding-4);
+  width: 300px;
+  margin: auto;
+  border: 1px solid var(--slate-300);
+  text-align: center;
+  letter-spacing: 0.5px;
+  gap: 0.5rem;
+}
+
+.container-sub-header {
+  color: var(--slate-900);
+}
+
+.container-p {
+  color: var(--slate-500);
+}
